@@ -8,6 +8,6 @@ public class StudentDAOlmpl implements StudentDAO {
 
     @Override
     public void save(Student theStudent) {
-
+        System.out.println("save Student");
     }
 }
